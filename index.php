@@ -22,6 +22,9 @@ echo date('d/ m/ Y/ H:i');
 
 echo'<br/>';
 echo date_default_timezone_get();
+date_default_timezone_set('America/Sao_Paulo');
+echo'<br/>';
+echo date('d/ m/ Y H:i');
 ?>
 </body>
 </html>
